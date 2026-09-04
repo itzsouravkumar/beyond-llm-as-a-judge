@@ -1,0 +1,11 @@
+numpy
+pandas
+matplotlib
+seaborn
+graphviz
+scikit-learn
+pytest
+requests
+google-genai
+openai
+python-dotenv
