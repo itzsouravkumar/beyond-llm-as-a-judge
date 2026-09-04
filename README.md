@@ -44,12 +44,7 @@ python scripts/experiment.py
 ```
 *(Note: Ensure your PYTHONPATH is set if running from the root directory: `PYTHONPATH=. python src/experiment.py`)*
 
-5. Generate the data plots and architectural diagrams from your live results:
-```bash
-python scripts/generate_plots.py
-python scripts/generate_diagrams.py
-```
-The resulting visualizations will be saved to the `diagrams/` directory. If you run the plotting scripts without running the experiment first, they will automatically default to rendering the theoretical baseline values established in the paper.
+
 
 ## References
 This project and its implementations build upon the following verified research:
