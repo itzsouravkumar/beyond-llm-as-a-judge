@@ -10,13 +10,10 @@ To run the experiments, you will need to provide your API keys.
 
 ## Repository Structure
 - `src/`: Contains the core experimental logic.
-  - `evaluators.py`: Base interfaces and implementations for `OpenAIJudge`, `GeminiFreeJudge`, and `OpenRouterJudge`.
+  - `evaluators.py`: Base interfaces and implementations for `OpenAIJudge`, `GeminiFreeJudge`.
   - `experiment.py`: Logic for running trials through the `DisagreementEscalationPipeline` and calculating consensus.
   - `metrics.py`: Statistical functions, including the Kish Effective Sample Size calculation.
-- `scripts/`: Automation scripts for visualization.
-  - `generate_plots.py`: Generates the data-driven graphs based on empirical evaluation data.
-  - `generate_diagrams.py`: Generates the architectural flowcharts.
-- `diagrams/`: Output directory for the generated `.png` assets used in the paper.
+
 - `requirements.txt`: Python package dependencies.
 
 ## How to Run the Project
@@ -53,4 +50,4 @@ This project and its implementations build upon the following verified research:
 2. Boodhun, B., et al. (2024). JudgeBench: A Benchmark for Evaluating LLM-based Judges. https://github.com/ScalerLab/JudgeBench
 
 ## Contact
-For inquiries or discussions regarding this research, please contact Sourav Kumar at sk9453@srmist.edu.in.
+For inquiries or discussions regarding this research, please contact Sourav Kumar at kumarsourav.works@gmail.com.
