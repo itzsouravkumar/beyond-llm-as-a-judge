@@ -43,7 +43,7 @@ def run_experiment():
     load_dotenv()
     print("Loading API keys and initializing 9 frontier models...")
     pool = get_heterogeneous_pool()
-    pipeline = DisagreementEscalationPipeline(pool, threshold=0.1)
+    pipeline = DisagreementEscalationPipeline(pool, threshold=-1.0)
     
     # A small mock dataset of complex NLI queries
     dataset = [

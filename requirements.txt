@@ -9,3 +9,4 @@ requests
 google-genai
 openai
 python-dotenv
+groq
